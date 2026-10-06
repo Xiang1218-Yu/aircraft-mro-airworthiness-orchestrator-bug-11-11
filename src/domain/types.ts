@@ -147,7 +147,7 @@ export interface LedgerEntry {
   createdAt: string;
 }
 
-export type TransferStatus = 'CREATED' | 'PICKED' | 'IN_TRANSIT' | 'RECEIVED' | 'CANCELLED';
+export type TransferStatus = 'CREATED' | 'PICKED' | 'IN_TRANSIT' | 'RECEIVED' | 'PUTAWAY' | 'CANCELLED' | 'COMPENSATED';
 
 export interface StockTransfer {
   id: string;
